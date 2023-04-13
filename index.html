@@ -164,12 +164,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
  
  <div class="card"> 
-  <model-viewer id="model-viewer" loading="eager" src="Models/regis_standing_standing_final_5___1666648558541.glb?sound=Sound/Dog_Bark_Panting_13.242 sec.wav" 
-  shadow-intensity="1" ar ar-modes="webxr scene-viewer quick-look" poster="images/Button Sit.png" camera-controls interaction-prompt="none" 
+   <model-viewer id="model-viewer" loading="eager" src="Models/regis_standing_standing_final_5___1666648558541.glb?sound=Sound/Dog_Bark_Panting_13.242 sec.wav" 
+  shadow-intensity="1" ar ar-modes="webxr scene-viewer quick-look" poster="images/Button Sit.png" camera-controls interaction-prompt="none" ios-src="Models/regis_standing_standing_final_5___1666648558541 (2).usdz"
   autoplay camera-orbit="0deg 90deg 110%" id="model-viewer" id="reveal" alt="A 3D model carousel" style="width: 100%; height: 520px">
-  <button slot="ar-button" style= "z-index: 9; background-color: #0081ae; border-radius: 4px; border: #000000; 
+  
+  <button slot="ar-button" style= "z-index: 9; background-color: #53616C; border-radius: 4px; border: #000000; 
   position: absolute; top: 16px; right: 16px; height: 40px; width: auto; ">
-  👆 <b style="color:#FFFFFF;"><strong>AR CLICK HERE</strong></b>
+  👆 <b style="color:#FFFFFF;"><strong>4D/AR CLICK HERE</strong></b>
   </button>
 
   <!--<div id="ar-prompt">
@@ -182,12 +183,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div class="slider">
     <div class="slides">
-    <div style="background-position:bottom center"> 
-     <button class="slide selected" onclick="switchSrc(this, 'regis_standing_lookingup_final_4b___1666752207448')" style="background-size: 90%; background-image:url('images/Button Stay.png');">
-     </button><button class="slide" onclick="switchSrc(this, 'regis_standing_sit_standing_lookup_final_10___1666756088204')" style="background-size: 90%; background-image:url('images/Button Sit.png');">
-     </button><button class="slide" onclick="switchSrc(this, 'regis_standing_lay_standing_lookup_final_1b___1666745898045')" style="background-size: 90%; background-image:url('images/Button Lay.png');">
-     </button><button class="slide" onclick="switchSrc(this, 'new_dancing_dog_long_hip_hop_2___1666746162500')" style="background-size: 90%; background-image:url('images/Button Dance.png');">
-     </button><button class="slide" onclick="switchSrc(this, 'regis_catching_scalebone_final_1___1666908892991')" style="background-size: 90%; background-image:url('images/Button Treat.png');">
+    <div style="background-color: #8F8C8A; background-position:bottom center"> 
+     <button class="slide selected" onclick="switchSrc(this, 'regis_standing_lookingup_final_4b___1666752207448')" style="background-size: 90%; background-image:url('images/Button Stay2.png');">
+     </button><button class="slide" onclick="switchSrc(this, 'regis_standing_sit_standing_lookup_final_10___1666756088204')" style="background-size: 90%; background-image:url('images/Button Sit2.png');">
+     </button><button class="slide" onclick="switchSrc(this, 'regis_standing_lay_standing_lookup_final_1b___1666745898045')" style="background-size: 90%; background-image:url('images/Button Lay2.png');">
+     </button><button class="slide" onclick="switchSrc(this, 'new_dancing_dog_long_hip_hop_2___1666746162500')" style="background-size: 90%; background-image:url('images/Button Dance2.png');">
+     </button><button class="slide" onclick="switchSrc(this, 'regis_catching_scalebone_final_1___1666908892991')" style="background-size: 90%; background-image:url('images/Button Treat2.png');">
    </button></div>
    </div></div> 
       
@@ -219,9 +220,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
 
   model-viewer {
-    background-color: #ffffff;
+    background-color: #8F8C8A;
     overflow-x: hidden;
-    --poster-color: #ffffff;
+    --poster-color: #8F8C8A;
   }
 
   #ar-button {
@@ -236,17 +237,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     white-space: nowrap;
     bottom: 132px;
     padding: 0px 16px 0px 40px;
-    font-family: Roboto Regular, Helvetica Neue, sans-serif;
+    font-family: Roboto Regular, Helvetica Neue, sans-serif; calibri;
     font-size: 14px;
     color:#4285f4;
     height: 36px;
     line-height: 36px;
     border-radius: 18px;
-    border: 1px solid #DADCE0;
+    border: 1px solid #FFFFFF;
   }
 
   #ar-button:active {
-    background-color: #E8EAED;
+    background-color: #53616C;
   }
 
   #ar-button:focus {
@@ -327,7 +328,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
 
   .slide.selected {
-    border: 6px solid #4285f4;
+    border: 6px solid #0539BE;
   }
 
   .slide:focus {
@@ -335,7 +336,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
 
   .slide:focus-visible {
-    outline: 1px solid #4285f4;
+    outline: 1px solid #0539BE;
   }
 
 </style>
@@ -343,7 +344,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      <section class="attribution">
         <div>
           <span>
-            <h1 style="text-align: center;" markdown="1"><p style="font-family:calibri">Regis Speak</p></h1>
+            <h1 style="text-align: center;" markdown="1"><b style="color:#ffffff"><p style="font-family:calibri">Regis Speak</p></h1>
               <p align="center">
               <span>
               <audio controls autoplay loop id="sound">
@@ -364,32 +365,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <div style="text-align:center">   
    <button onclick="location.href='https://avertek.github.io/Regis-Final-v1-Landing-Page/'" type="button" slot="" 
                     style="z-index: 9; background-color: #FFFFFF; border-radius: 8px; border: 1 px solid white; position: static; height: 35px; width: auto;
-                          color:#4285f4; font-family:Avenir Next LT Pro"><strong>Hear Regis' Story</strong>
+                          color:#53616C; font-family:calibri"><strong>Hear Regis' Story</strong>
        </button> 
          </div>
          <br><br>                       
     
      <div class="card">
-     <h2 style="text-align: center;" markdown="1"><p style="font-family:calibri"><b>LEARN:</b><a href="https://www.thewestsidecollection.com/lincoln-sm-live-work-santa-monica-ca/?utm_source=AVERtek&utm_medium=AR" onclick="getOutboundLink('https://www.thewestsidecollection.com/lincoln-sm-live-work-santa-monica-ca/?utm_source=AVERtek&utm_medium=AR');return false;"><b style="color:#0081ae;"><b> MORE</b></b></h2></a></p></a></h2>
-     <h2 style="text-align: center;" markdown="1"><p style="font-family:calibri"><b>WALK OUR NEIGHBORHOOD:</b><a href="https://www.google.com/maps/@34.0185555,-118.4893568,3a,75y,266.59h,89.73t/data=!3m6!1e1!3m4!1so26J0FdnnxU1OeoAng9mmQ!2e0!7i16384!8i8192?utm_source=AVERtek&utm_medium=AR" onclick="getOutboundLink('https://www.google.com/maps/@34.0185555,-118.4893568,3a,75y,266.59h,89.73t/data=!3m6!1e1!3m4!1so26J0FdnnxU1OeoAng9mmQ!2e0!7i16384!8i8192?utm_source=AVERtek&utm_medium=AR');return false;"><b style="color:#0081ae;"><b> HERE</b></b></h2></a></p></a></h2>
-     <h2 style="text-align: center;" markdown="1"><p style="font-family:calibri"><b>SPECIAL:</b><a href="mailto:LincolnSM.AVERtekSMLW.SaresRegis@aptleasing.info?subject=Requesting%20VIP%20Tour&body=Please contact me for a VIP tour of Lincoln SM Live/Work apartments."<b style="color:#0081ae;"> REQUEST VIP TOUR</a></b></h2></p>
-     <h2 style="text-align: center;" markdown="1"><p style="font-family:calibri"><b>CALL:</b><a href="tel:+18333495305"><b style="color:#0081ae;"> 833-349-5305</a></b></b></p></h2>
-     <h2 style="text-align: center;" markdown="1"><p style="font-family:calibri"><b>CONTACT:</b><a href="https://www.thewestsidecollection.com/lincoln-sm-live-work-santa-monica-ca/contact?utm_source=AVERtek&utm_medium=AR" onclick="getOutboundLink('https://www.thewestsidecollection.com/lincoln-sm-live-work-santa-monica-ca/contact?utm_source=AVERtek&utm_medium=AR');return false;"><b style="color:#0081ae;"><b> US</b></b></h2></a></p></a></h2> 
+     <h2 style="text-align: center;" markdown="1"><b style="color:#53616C"><p style="font-family:calibri"><b>SPACIOUS:</b><a href="https://www.livesilveradofrisco.com/floorplans/?utm_source=AVERtek&utm_medium=AR" onclick="getOutboundLink('https://www.livesilveradofrisco.com/floorplans/?utm_source=AVERtek&utm_medium=AR');return false;"><b style="color:#FFFFFF;"><b> FLOORPLANS</b></b></h2></a></p></a></h2>
+     <h2 style="text-align: center;" markdown="1"><b style="color:#53616C"><p style="font-family:calibri"><b>VIRTUAL:</b><a href="https://www.livesilveradofrisco.com/virtualtours/?utm_source=AVERtek&utm_medium=AR" onclick="getOutboundLink('https://www.livesilveradofrisco.com/virtualtours/?utm_source=AVERtek&utm_medium=AR');return false;"><b style="color:#FFFFFF;"><b> TOURS</b></b></h2></a></p></a></h2>
+     <h2 style="text-align: center;" markdown="1"><b style="color:#53616C"><p style="font-family:calibri"><b>CONTACT:</b><a href="https://www.livesilveradofrisco.com/contactus/?utm_source=AVERtek&utm_medium=AR" onclick="getOutboundLink('https://www.livesilveradofrisco.com/contactus/?utm_source=AVERtek&utm_medium=AR');return false;"><b style="color:#FFFFFF;"><b> US</b></b></h2></a></p></a></h2>
+     <h2 style="text-align: center;" markdown="1"><b style="color:#53616C"><p style="font-family:calibri"><b>CALL:</b><a href="tel:+18337790347"><b style="color:#FFFFFF;"> 833-779-0347</a></b></b></p></h2>
+     <h2 style="text-align: center;" markdown="1"><b style="color:#53616C"><p style="font-family:calibri"><b>APPLY:</b><a href="https://livesilveradofrisco.securecafe.com/onlineleasing/silverado0/guestlogin.aspx?PropLeadSource_1411089=portal&_yTrackUser=MjIwMjQ5NTk0NCM2ODU2NjA2OTQ%253d-p8knzvVdVOM%253d&_yTrackVisit=MzcwNTM0MDU2MSMxNzY5NTAzNTc%253d-QHFMCPUVync%253d&_yTrackReqDT=41422120231004&_ga=2.237352708.563806798.1681162610-2081645018.1681162610?utm_source=AVERtek&utm_medium=AR" onclick="getOutboundLink('https://livesilveradofrisco.securecafe.com/onlineleasing/silverado0/guestlogin.aspx?PropLeadSource_1411089=portal&_yTrackUser=MjIwMjQ5NTk0NCM2ODU2NjA2OTQ%253d-p8knzvVdVOM%253d&_yTrackVisit=MzcwNTM0MDU2MSMxNzY5NTAzNTc%253d-QHFMCPUVync%253d&_yTrackReqDT=41422120231004&_ga=2.237352708.563806798.1681162610-2081645018.1681162610?utm_source=AVERtek&utm_medium=AR');return false;"><b style="color:#FFFFFF;"><b> NOW</b></b></h2></a></p></a></h2> 
      <br>
-     <h2 style="text-align: center;" markdown="1"><b style="color:#000000;"><p style="font-family:calibri"> 1234 Any Street, City, State 56789 </p></h2></b>
+     <h2 style="text-align: center;" markdown="1"><b style="color:#FFFFFF;"><p style="font-family:calibri"> 8400 Stonebrook Parkway, Frisco, TX 75034</p></h2></b>
    </div>
    
    <div class="card">
-    <img class="marginauto" src="images/AR Instructions h2c.png" style="max-width: 100%; max-height: 100%">
+    <img class="marginauto" src="images/AR Instructions wht-trans3.png" style="max-width: 100%; height: 350px">
     </style>  
    </div>
   
-   <div class="card">
+    <div class="card">
    
-     <h4 style="text-align: center;" markdown="1"><b style="color:#0081ae;"><p style="font-family:calibri"><em> if AR button does not appear on mobile device, use another browser</em></p></h4></b>
+     <h4 style="text-align: center;" markdown="1"><b style="color:#ffffff"><p style="font-family:Arial Narrow"><em> if AR button does not appear on mobile device, use another browser</em></p></h4></b>
      
      <h3 style="text-align: center;" markdown="1"><a href="https://avertek.net/" onclick="getOutboundLink('https://avertek.net/');
-       return false;"><b style="color:#0081ae;"><p style="font-family:calibri">Learn More About AVERtek's XR-NOW</p></a></h3></b>
+       return false;"><b style="color:#FFFFFF;"><p style="font-family:Arial Narrow">Learn More About AVERtek's XR-NOW</p></a></h3></b>
     </div>
 
 
